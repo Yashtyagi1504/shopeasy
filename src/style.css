@@ -4,13 +4,20 @@
   box-sizing: border-box;
 }
 
-:root {
+/* :root {
   --primary-color: #2c3e50;
   --secondary-color: #3498db;
   --accent-color: #e74c3c;
   --text-color: #2c3e50;
   --background-color: #f8f9fa;
-}
+} */
+:root {
+  --primary-color: #53040b; 
+  --secondary-color: #f10e21ce; 
+  --accent-color: #a85f5f; 
+  --text-color: #53040b; 
+  --background-color: #e8eaf6; 
+} 
 
 .container {
   min-height: 100vh;
