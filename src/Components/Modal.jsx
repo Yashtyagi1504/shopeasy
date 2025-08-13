@@ -13,7 +13,6 @@ const Modal = ({isOpen, product, onClose, setCartList, cartList}) => {
             setCartList([...cartList, product]);
         }
     };
-
     return (
         <div className="modal" onClick={onClose}>
             <div className="modal-card" onClick={e => e.stopPropagation()}>
